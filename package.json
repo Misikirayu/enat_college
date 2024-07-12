@@ -1,0 +1,20 @@
+{
+  "name": "enat",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "sass:build": "sass --no-source-map scss:src/css",
+    "sass:watch" :"sass --no-source-map --watch scss:src/css"
+  },
+  "devDependencies": {
+    "vite": "^5.3.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.77.6"
+  }
+}
